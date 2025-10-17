@@ -59,15 +59,15 @@ Implementa una calculadora científica aplicando **herencia, polimorfismo, encap
 Se desarrolla en un solo archivo Kotlin.
 
 **Ejecución:**
-1. Abrir el archivo `CalculadoraCientifica.kt` en cualquier IDE compatible con Kotlin (IntelliJ o VS Code).  
+1. Abrir el archivo `main.kt` en cualquier IDE compatible con Kotlin (IntelliJ o VS Code).  
 2. Ejecutar el programa con:
    ```bash
-   kotlinc CalculadoraCientifica.kt -include-runtime -d CalculadoraCientifica.jar
-   java -jar CalculadoraCientifica.jar
+   kotlinc main.kt -include-runtime -d main.jar
+   java -jar main.jar
    ```
 
 **Archivo principal:**
-- `CalculadoraCientifica.kt` — contiene todas las clases:  
+- `main.kt` — contiene todas las clases:  
   `Calculadora`, `CalculadoraCientifica`, `Memoria` y `ErrorManager`.
 
 ---
